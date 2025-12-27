@@ -26,3 +26,5 @@ The SAC agent learns a stochastic policy for controlling the lander, achieving s
 
 ---
 
+![Actor performance plot](performance_plot.png)
+
