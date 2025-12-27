@@ -8,27 +8,19 @@ The SAC agent learns a stochastic policy for controlling the lander, achieving s
 
 ## Files
 
-- `final_continuous_lunar.ipynb` — Main notebook implementing SAC, training, checkpointing, and evaluation.  
-- `cont_lunar_lander_q_network.pth` — Trained actor network.  
-- `lunar_lander_demo.mp4` — Video of the trained agent performing landings.  
-- `requirements.txt` — Python dependencies (optional).  
+- `final_continuous_lunar_lander.ipynb` — Main notebook implementing SAC, training, checkpointing, and evaluation.  
+- `sac_lunar_lander_actor_network.pth` — Trained actor network.  
+- `c_lunar_lander.mp4` — Video of the trained agent performing landings.  
 
 ---
 
 ## Training Summary
 
-- The model reached an **average reward of over 500** on the last 100 episodes.  
+- The model reached an **average reward of over 200** on the last 100 episodes.  
 - **Training duration:** 603 episodes.  
 - **Evaluation performance:** Average reward of **247.597** over 50 evaluation episodes.  
 
 > Note: The evaluation was run using a deterministic policy to assess average performance.
 
 ---
-
-## How to Run
-
-1. Clone this repository:
-```bash
-git clone <repository-url>
-cd SAC_LunarLander
 
