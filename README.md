@@ -5,7 +5,7 @@ This repository contains an implementation of the **Soft Actor-Critic (SAC)** al
 The SAC agent learns a stochastic policy for controlling the lander, achieving stable and efficient landings.
 
 ---
-![Lunar Lander Demo](environment image.png)
+![Lunar Lander Demo](environment%20image.png)
 ---
 
 ## Files
